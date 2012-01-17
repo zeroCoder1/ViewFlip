@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3906228014C578BB0013F0DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3906227F14C578BB0013F0DF /* UIKit.framework */; };
+		3906228214C578BB0013F0DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3906228114C578BB0013F0DF /* Foundation.framework */; };
+		3906228414C578BB0013F0DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3906228314C578BB0013F0DF /* CoreGraphics.framework */; };
+		3906228A14C578BB0013F0DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3906228814C578BB0013F0DF /* InfoPlist.strings */; };
+		3906228C14C578BB0013F0DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3906228B14C578BB0013F0DF /* main.m */; };
+		3906229014C578BB0013F0DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3906228F14C578BB0013F0DF /* AppDelegate.m */; };
+		3906229314C578BB0013F0DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3906229214C578BB0013F0DF /* ViewController.m */; };
+		3906229614C578BC0013F0DF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3906229414C578BC0013F0DF /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3906227B14C578BB0013F0DF /* flipFlap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flipFlap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3906227F14C578BB0013F0DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3906228114C578BB0013F0DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3906228314C578BB0013F0DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3906228714C578BB0013F0DF /* flipFlap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flipFlap-Info.plist"; sourceTree = "<group>"; };
+		3906228914C578BB0013F0DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3906228B14C578BB0013F0DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3906228D14C578BB0013F0DF /* flipFlap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flipFlap-Prefix.pch"; sourceTree = "<group>"; };
+		3906228E14C578BB0013F0DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3906228F14C578BB0013F0DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3906229114C578BB0013F0DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3906229214C578BB0013F0DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3906229514C578BC0013F0DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3906227814C578BB0013F0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3906228014C578BB0013F0DF /* UIKit.framework in Frameworks */,
+				3906228214C578BB0013F0DF /* Foundation.framework in Frameworks */,
+				3906228414C578BB0013F0DF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3906227014C578BB0013F0DF = {
+			isa = PBXGroup;
+			children = (
+				3906228514C578BB0013F0DF /* flipFlap */,
+				3906227E14C578BB0013F0DF /* Frameworks */,
+				3906227C14C578BB0013F0DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3906227C14C578BB0013F0DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3906227B14C578BB0013F0DF /* flipFlap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3906227E14C578BB0013F0DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3906227F14C578BB0013F0DF /* UIKit.framework */,
+				3906228114C578BB0013F0DF /* Foundation.framework */,
+				3906228314C578BB0013F0DF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3906228514C578BB0013F0DF /* flipFlap */ = {
+			isa = PBXGroup;
+			children = (
+				3906228E14C578BB0013F0DF /* AppDelegate.h */,
+				3906228F14C578BB0013F0DF /* AppDelegate.m */,
+				3906229114C578BB0013F0DF /* ViewController.h */,
+				3906229214C578BB0013F0DF /* ViewController.m */,
+				3906229414C578BC0013F0DF /* ViewController.xib */,
+				3906228614C578BB0013F0DF /* Supporting Files */,
+			);
+			path = flipFlap;
+			sourceTree = "<group>";
+		};
+		3906228614C578BB0013F0DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3906228714C578BB0013F0DF /* flipFlap-Info.plist */,
+				3906228814C578BB0013F0DF /* InfoPlist.strings */,
+				3906228B14C578BB0013F0DF /* main.m */,
+				3906228D14C578BB0013F0DF /* flipFlap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3906227A14C578BB0013F0DF /* flipFlap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3906229914C578BC0013F0DF /* Build configuration list for PBXNativeTarget "flipFlap" */;
+			buildPhases = (
+				3906227714C578BB0013F0DF /* Sources */,
+				3906227814C578BB0013F0DF /* Frameworks */,
+				3906227914C578BB0013F0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flipFlap;
+			productName = flipFlap;
+			productReference = 3906227B14C578BB0013F0DF /* flipFlap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3906227214C578BB0013F0DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3906227514C578BB0013F0DF /* Build configuration list for PBXProject "flipFlap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3906227014C578BB0013F0DF;
+			productRefGroup = 3906227C14C578BB0013F0DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3906227A14C578BB0013F0DF /* flipFlap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3906227914C578BB0013F0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3906228A14C578BB0013F0DF /* InfoPlist.strings in Resources */,
+				3906229614C578BC0013F0DF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3906227714C578BB0013F0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3906228C14C578BB0013F0DF /* main.m in Sources */,
+				3906229014C578BB0013F0DF /* AppDelegate.m in Sources */,
+				3906229314C578BB0013F0DF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3906228814C578BB0013F0DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3906228914C578BB0013F0DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3906229414C578BC0013F0DF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3906229514C578BC0013F0DF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3906229714C578BC0013F0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3906229814C578BC0013F0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3906229A14C578BC0013F0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flipFlap/flipFlap-Prefix.pch";
+				INFOPLIST_FILE = "flipFlap/flipFlap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3906229B14C578BC0013F0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flipFlap/flipFlap-Prefix.pch";
+				INFOPLIST_FILE = "flipFlap/flipFlap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3906227514C578BB0013F0DF /* Build configuration list for PBXProject "flipFlap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3906229714C578BC0013F0DF /* Debug */,
+				3906229814C578BC0013F0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3906229914C578BC0013F0DF /* Build configuration list for PBXNativeTarget "flipFlap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3906229A14C578BC0013F0DF /* Debug */,
+				3906229B14C578BC0013F0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3906227214C578BB0013F0DF /* Project object */;
+}
